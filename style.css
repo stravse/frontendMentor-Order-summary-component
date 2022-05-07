@@ -1,0 +1,143 @@
+@import url("https://fonts.google.com/specimen/Red+Hat+Display");
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #e0e8ff;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position-y: -120px;
+    color: hsl(223, 47%, 23%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    font-family: 'Red Hat Display', sans-serif;
+}
+p{
+    font-weight: 400;
+    color:  hsl(224, 20%, 60%);
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 330px;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: 0 10px 15px #bdc6f0;
+}
+.card-image{
+    flex: 0 0 180px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: local;
+    background-image: url(./images/illustration-hero.svg);
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px;
+}
+.card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 265px;
+    
+}
+.card-text h2{
+    font-size: 20px;
+    font-weight: bolder;
+}
+.card-text p{
+    letter-spacing: -1px;
+    margin-top: 10px;
+    font-size: 13px;
+    line-height: 1.6;
+    font-weight: bold;
+}
+.music-logo{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.card-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+
+}
+.some-container{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+    justify-content: start;
+}
+.price-container h3{
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.price-container p{
+    font-size: 14px;
+}
+.change-price{
+    font-size: 12px;
+    color: hsl(245, 75%, 52%);
+    font-weight: 900;
+}
+.change-price:hover{
+    color: #766cf1;
+    text-decoration: none;
+}
+.payment-button{
+    background-color: hsl(245, 75%, 52%);
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    color: hsl(225, 100%, 98%);
+    font-weight: bold;
+    box-shadow: 0 8px 15px hsl(225, 32%, 66%);
+}
+.payment-button:hover{
+    cursor: pointer;
+    background-color: #766cf1;
+}
+.cancel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.cancel-order-link{
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 14px;
+}
+.cancel-order-link:hover{
+    color: hsl(223, 47%, 23%);
+}
