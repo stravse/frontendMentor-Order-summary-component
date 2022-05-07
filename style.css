@@ -16,7 +16,7 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
-    background-position-y: -120px;
+    background-position-y: -105px;
     color: hsl(223, 47%, 23%);
     height: 100%;
     display: flex;
@@ -34,15 +34,16 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .card{
     display: flex;
     flex-direction: column;
-    flex: 0 0 330px;
+    flex: 0 0 350px;
     border-radius: 15px;
     overflow: hidden;
     background-color: white;
-    box-shadow: 0 10px 15px #bdc6f0;
+    box-shadow: 0 10px 15px #c4cbe5;
 }
 .card-image{
     flex: 0 0 180px;
@@ -56,7 +57,8 @@ p{
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 30px;
+    padding: 35px;
+    align-items: center;
 }
 .card-text{
     display: flex;
@@ -73,11 +75,9 @@ p{
     font-weight: bolder;
 }
 .card-text p{
-    letter-spacing: -1px;
     margin-top: 10px;
-    font-size: 13px;
+    font-size: 14px;
     line-height: 1.6;
-    font-weight: bold;
 }
 .music-logo{
     width: 40px;
@@ -89,6 +89,7 @@ p{
     justify-content: space-between;
     align-items: center;
     padding: 0 15px;
+    width: 100%;
 
 }
 .some-container{
@@ -98,7 +99,7 @@ p{
     justify-content: start;
 }
 .price-container h3{
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 5px;
 }
 .price-container p{
@@ -114,13 +115,15 @@ p{
     text-decoration: none;
 }
 .payment-button{
-    background-color: hsl(245, 75%, 52%);
+    width: 100%; 
+    margin-top: 15px;
     padding: 12px;
     border: none;
     border-radius: 8px;
+    font-weight: bolder;
+    background-color: hsl(245, 75%, 52%);
     color: hsl(225, 100%, 98%);
-    font-weight: bold;
-    box-shadow: 0 8px 15px hsl(225, 32%, 66%);
+    box-shadow: 0 8px 15px #c4cbe5;
 }
 .payment-button:hover{
     cursor: pointer;
@@ -135,8 +138,8 @@ p{
 .cancel-order-link{
     text-decoration: none;
     color: hsl(224, 23%, 55%);
-    font-weight: 700;
-    font-size: 14px;
+    font-weight: 900;
+    font-size: 12px;
 }
 .cancel-order-link:hover{
     color: hsl(223, 47%, 23%);
